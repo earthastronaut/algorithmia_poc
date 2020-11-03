@@ -1,0 +1,8 @@
+{
+  "features": [
+    "sepal_length_cm_norm",
+    "sepal_width_cm",
+    "petal_length_cm",
+    "petal_width_cm"
+  ]
+}

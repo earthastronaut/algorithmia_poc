@@ -1,0 +1,13 @@
+{
+  "model_class": "src.tree_model.CustomDecisionTree",
+  "hyper_parameters": {
+    "features": [
+      "sepal_length_cm_norm",
+      "sepal_width_cm",
+      "petal_length_cm",
+      "petal_width_cm"
+    ],
+    "max_depth": 4,
+    "random_state": 1
+  }
+}

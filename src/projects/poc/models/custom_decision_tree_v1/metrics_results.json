@@ -1,0 +1,21 @@
+{
+  "accuracy": 0.9333333333333333,
+  "confusion_matrix": [
+    [
+      13,
+      0,
+      0
+    ],
+    [
+      0,
+      15,
+      1
+    ],
+    [
+      0,
+      2,
+      14
+    ]
+  ],
+  "plot_decision_tree": "<matplotlib.axes._subplots.AxesSubplot object at 0x7fef48045b50>"
+}

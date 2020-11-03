@@ -15,8 +15,8 @@ COPY bin ./bin
 COPY src ./src
 COPY app_config.yml .
 
-ENV PYTHONPATH=${PWD} 
-ENV PATH=${PWD}/bin:${PATH}
+ENV PYTHONPATH=/usr/local/src/app
+ENV PATH=/usr/local/src/app/bin:${PATH}
 
 CMD ["run.py"]
 
@@ -33,8 +33,8 @@ WORKDIR /work
 COPY requirements_dev.txt .
 RUN pip install --no-cache-dir -r requirements_dev.txt
 
-ENV PYTHONPATH=${PWD} 
-ENV PATH=${PWD}/bin:${PATH}
+ENV PYTHONPATH=/work
+ENV PATH=/work/bin:${PATH}
 
 EXPOSE 8888
 
