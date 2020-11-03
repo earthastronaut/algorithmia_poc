@@ -1,0 +1,65 @@
+# Generic ignore
+untracked_*
+
+# ignore data directory
+data/*
+!.gitkeep
+
+# ignore docker-compose, should all be captured within the config.yml
+# and then created via `ds docker config`
+docker-compose.yml
+
+# environment parameters
+.env/*
+!.gitkeep
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+lab/
+migrated
+
+# vim
+*.swp
+*.swo
+
+# vscode
+.vscode/settings.json
+
+# Mac OS-specific storage files
+.DS_Store
